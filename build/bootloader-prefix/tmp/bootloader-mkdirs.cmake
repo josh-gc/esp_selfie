@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader/subproject"
-  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader"
-  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix"
-  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix/tmp"
-  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix/src/bootloader-stamp"
-  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix/src"
-  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix/src/bootloader-stamp"
+  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader"
+  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix"
+  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix/tmp"
+  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix/src/bootloader-stamp"
+  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix/src"
+  "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

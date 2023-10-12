@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device
+# Install script for directory: /Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/esp-idf/cmake_install.cmake")
+  include("/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

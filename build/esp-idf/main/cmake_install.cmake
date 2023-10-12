@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/main
+# Install script for directory: /Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

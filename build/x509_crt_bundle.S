@@ -1,4 +1,4 @@
-/* * Data converted from /Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

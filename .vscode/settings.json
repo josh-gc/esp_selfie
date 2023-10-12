@@ -4,5 +4,6 @@
 	"files.associations": {
 		"*.ipp": "c",
 		"semphr.h": "c"
-	}
+	},
+	"idf.adapterTargetName": "esp32"
 }

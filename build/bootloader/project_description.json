@@ -4,8 +4,8 @@
     "project_version":    "v4.4.5-249-gcc71308e2f",
     "project_path":       "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader/subproject",
     "idf_path":           "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf",
-    "build_dir":          "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader",
-    "config_file":        "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/sdkconfig",
+    "build_dir":          "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader",
+    "config_file":        "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
@@ -52,7 +52,7 @@
             "priv_reqs": [ "micro-ecc", "spi_flash", "efuse", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_common.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_flash.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_random.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/esp_image_format.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/secure_boot.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/flash_partitions.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/flash_qio_mode.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_flash_config_esp32.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_init.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_clock_loader.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_console.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_console_loader.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/bootloader_panic.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/esp32/bootloader_sha.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/esp32/bootloader_soc.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader_support/src/esp32/bootloader_esp32.c" ],
             "include_dirs": [ "include", "include_bootloader" ]
         },
@@ -67,7 +67,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/efuse/libefuse.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/efuse/libefuse.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/esp32/esp_efuse_table.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/src/esp_efuse_api.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/src/esp_efuse_fields.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/src/esp_efuse_utility.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/efuse/src/esp_efuse_api_key_esp32.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -97,7 +97,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/esp_common/libesp_common.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -112,7 +112,7 @@
             "priv_reqs": [ "efuse", "bootloader_support", "spi_flash", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/compare_set.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/cpu_util.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_pm.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/rtc_wdt.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_hw_support/port/esp32/chip_info.c" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32" ]
         },
@@ -127,7 +127,7 @@
             "priv_reqs": [ "soc", "hal", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/esp_rom/libesp_rom.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/patches/esp_rom_tjpgd.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
             "include_dirs": [ "include", "include/esp32", "esp32" ]
         },
@@ -142,7 +142,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/esp_system/libesp_system.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_system/esp_err.c" ],
             "include_dirs": []
         },
@@ -187,7 +187,7 @@
             "priv_reqs": [ "esp32" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/hal/libhal.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/hal/libhal.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/hal/wdt_hal_iram.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/hal/mpu_hal.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/hal/cpu_hal.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/hal/efuse_hal.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/hal/esp32/efuse_hal.c" ],
             "include_dirs": [ "esp32/include", "include", "platform_port/include" ]
         },
@@ -202,7 +202,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/log/liblog.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/log/liblog.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/log/log.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/log/log_buffers.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/log/log_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -217,7 +217,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/main/libmain.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/main/libmain.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader/subproject/main/bootloader_start.c" ],
             "include_dirs": []
         },
@@ -232,7 +232,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/micro-ecc/libmicro-ecc.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/micro-ecc/libmicro-ecc.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c" ],
             "include_dirs": [ ".", "micro-ecc" ]
         },
@@ -277,7 +277,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/soc/libsoc.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/soc/libsoc.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/lldesc.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/soc_include_legacy_warn.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/adc_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/dac_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/gpio_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/i2c_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/i2s_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/interrupts.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/lcd_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/ledc_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/mcpwm_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/pcnt_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/rmt_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/rtc_io_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/sdio_slave_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/sdmmc_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/sigmadelta_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/spi_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/timer_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/touch_sensor_periph.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/soc/esp32/uart_periph.c" ],
             "include_dirs": [ "include" ]
         },
@@ -292,7 +292,7 @@
             "priv_reqs": [ "bootloader_support", "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/spi_flash/libspi_flash.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/spi_flash/esp32/spi_flash_rom_patch.c" ],
             "include_dirs": [ "include" ]
         },
@@ -307,7 +307,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/xtensa/libxtensa.a",
+            "file": "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/xtensa/eri.c", "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/xtensa/xt_trax.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         }

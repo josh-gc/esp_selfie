@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
+  include("/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
 
 endif()
 

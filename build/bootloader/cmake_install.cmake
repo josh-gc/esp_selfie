@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/esp-idf/cmake_install.cmake")
+  include("/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

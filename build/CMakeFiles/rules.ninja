@@ -1595,7 +1595,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake --regenerate-during-build -S/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device -B/Volumes/Data_Int/_Documents/ESP/_CODE/esp_hid_device/build
+  command = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake --regenerate-during-build -S/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie -B/Volumes/Data_Int/_Documents/ESP/_CODE/esp_selfie/build
   description = Re-running CMake...
   generator = 1
 
