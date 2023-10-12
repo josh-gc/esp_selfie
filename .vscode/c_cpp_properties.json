@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/main/include",
+                "${workspaceFolder}/components/*",
+                "../esp-idf/components/**",
+                "${workspaceFolder}/components/glamcor_board/include"
+            ],
+            "compilerPath": "/Users/jkran/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch5-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc"
+        }
+    ],
+    "version": 4
+}

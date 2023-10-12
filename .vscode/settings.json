@@ -1,0 +1,8 @@
+{
+	"idf.port": "/dev/cu.usbserial-01BFAACF",
+	"idf.flashType": "UART",
+	"files.associations": {
+		"*.ipp": "c",
+		"semphr.h": "c"
+	}
+}
