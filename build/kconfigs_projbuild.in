@@ -1,5 +1,0 @@
-source "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/app_update/Kconfig.projbuild"
-source "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/bootloader/Kconfig.projbuild"
-source "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esp_rom/Kconfig.projbuild"
-source "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/esptool_py/Kconfig.projbuild"
-source "/Volumes/Data_Int/_Documents/ESP/_CODE/esp-idf/components/partition_table/Kconfig.projbuild"
